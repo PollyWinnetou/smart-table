@@ -10,5 +10,5 @@ export function initData(sourceData) {
         customer: customers[item.customer_id],
         total: item.total_amount
     }));
-    return {sellers, customers, data};
+    return { data, sellers, customers };
 }
